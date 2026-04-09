@@ -1,0 +1,31 @@
+//Dados dos membros da equipe da nossa landing page
+
+export interface Membro {
+    id: number;
+    nome: string;
+    cargo: string;
+    descricao: string;
+}
+
+export const equipe: Membro[] = [
+    {id: 1, 
+     nome: "André Luz", 
+     cargo: "CEO & Fundador", 
+     descricao: "Especialista em gestão educacional com 15 anos de experiência no setor técnico."
+    },
+    {id: 2, 
+     nome: "Carla Mendes", 
+     cargo: "CTO", 
+     descricao: "Engenheira de software focada em arquiteturas escaláveis e segurança de dados."
+    },
+    {id: 3, 
+     nome: "Paulo Neto", 
+     cargo: "Head de Produto", 
+     descricao: "Designer UX apaixonado por criar interfaces que facilitam o dia a dia do professor."
+    },
+    {id: 4, 
+     nome: "Rita Costa", 
+     cargo: "Sucesso do Cliente", 
+     descricao: "Garante que cada escola parceira extraia o máximo potencial da nossa tecnologia."
+    },
+];

@@ -1,0 +1,52 @@
+:root {
+
+  --primary-color: #2563EB;
+  --secondary-color: #304169;
+  --tertiary-color: #FF7F50;
+  --neutral-color: #64748B;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+
+  /* Fonte utilizada com Google Fonts */
+  --fonte-principal: 'Inter', sans-serif;
+
+  --border-radius-pattern: 12px;
+
+}
+
+/* Reset básico para garantir consistência entre navegadores */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* O padding não aumenta o tamanho total do elemento */
+}
+
+/* ─── Base do documento ──────────────────────────────── */
+body {
+  font-family: var(--fonte-principal) ;
+  color: var(--neutral-color);
+  background-color: var(--white-color);
+  line-height: 1.5; /* espaçamento entre linhas — melhora a leitura */
+}
+
+.container {
+  max-width: 1200px; /* largura máxima para telas grandes */
+  margin: 0 auto; /* centraliza horizontalmente */
+  padding: 0 24px; /* espaçamento interno nas laterais */
+}
+
+.secao-titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: center;
+  
+}
+
+.secao-subtitulo {
+  font-size: 1.1rem;
+  color: var(--neutral-color);
+  text-align: center;
+}
+

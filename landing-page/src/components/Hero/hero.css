@@ -1,11 +1,14 @@
 .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0 auto;
     padding: 40px 0;
 
 }
 
-.hero .container {
+.hero .container-hero {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -22,6 +25,7 @@
     border-radius: 18px;
     font-weight: 600;
     font-size: 0.875rem;
+    align-self: center;
     
 }
 
@@ -45,6 +49,7 @@
 
 .buttonsHero {
    display: flex;
+   justify-content: center;
    gap: 15px;
    
 }

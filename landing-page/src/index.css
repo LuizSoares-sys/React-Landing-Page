@@ -6,6 +6,7 @@
   --tertiary-color: #FF7F50;
   --neutral-color: #64748B;
   --white-color: #FFFFFF;
+  --background-color: #F8F9FF;
   --black-color: #000000;
 
   /* Fonte utilizada com Google Fonts */
@@ -27,7 +28,7 @@
 body {
   font-family: var(--fonte-principal) ;
   color: var(--neutral-color);
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   line-height: 1.5; /* espaçamento entre linhas — melhora a leitura */
 }
 

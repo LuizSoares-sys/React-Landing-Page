@@ -7,7 +7,7 @@ function Sobre() {
     <section className="sobre">
       <div className="container-sobre">
         <div className="coluna1">
-          <h4>Sobre a Edutrack</h4>
+          <h4 className="tagSobre">Sobre a Edutrack</h4>
           <h2>Tecnologia a serviço da educação de qualidade</h2>
           <p>
             Nossa missão é transformar a maneira como escolas técnicas operam,

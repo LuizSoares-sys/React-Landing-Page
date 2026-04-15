@@ -12,7 +12,7 @@ function ItemPilar({ icon, titulo, descricao }: ItemPilarProps) {
       </div>
       <div>
         <span className="titulo-pilar">{titulo}</span>
-        <p>{descricao}</p>
+        <p className="descricao-pilar">{descricao}</p>
       </div>
     </div>
   );

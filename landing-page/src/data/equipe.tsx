@@ -5,6 +5,8 @@ export interface Membro {
   nome: string;
   cargo: string;
   descricao: string;
+  corFundo: string;
+  corTexto: string;
 }
 
 export const equipe: Membro[] = [
@@ -14,6 +16,8 @@ export const equipe: Membro[] = [
     cargo: "CEO & Fundador",
     descricao:
       "Especialista em gestão educacional com 15 anos de experiência no setor técnico.",
+    corFundo: "#4A90E2",
+    corTexto: "#FFFFFF",
   },
   {
     id: 2,
@@ -21,6 +25,8 @@ export const equipe: Membro[] = [
     cargo: "CTO",
     descricao:
       "Engenheira de software focada em arquiteturas escaláveis e segurança de dados.",
+    corFundo: "#50C878",
+    corTexto: "#FFFFFF",
   },
   {
     id: 3,
@@ -28,6 +34,8 @@ export const equipe: Membro[] = [
     cargo: "Head de Produto",
     descricao:
       "Designer UX apaixonado por criar interfaces que facilitam o dia a dia do professor.",
+    corFundo: "#9370DB",
+    corTexto: "#FFFFFF",
   },
   {
     id: 4,
@@ -35,5 +43,7 @@ export const equipe: Membro[] = [
     cargo: "Sucesso do Cliente",
     descricao:
       "Garante que cada escola parceira extraia o máximo potencial da nossa tecnologia.",
+    corFundo: "#FF6347",
+    corTexto: "#FFFFFF",
   },
 ];

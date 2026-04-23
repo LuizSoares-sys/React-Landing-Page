@@ -14,7 +14,7 @@ function Equipe () {
                     {equipe.map((membro) => (
                         <ItemEquipe
                             key={membro.id}
-                            icon={membro.icon}
+                            foto={membro.foto}
                             nome={membro.nome}
                             cargo={membro.cargo}
                             descricao={membro.descricao}
@@ -27,4 +27,4 @@ function Equipe () {
     )
 }   
 
-export default Equipe
+export default Equipe;

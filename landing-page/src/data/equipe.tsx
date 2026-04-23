@@ -1,8 +1,12 @@
 //Dados dos membros da equipe da nossa landing page
+import idfoto1 from "../assets/IconsEquipe/idfoto1.png";
+import idfoto2 from "../assets/IconsEquipe/idfoto2.png";
+import idfoto3 from "../assets/IconsEquipe/idfoto3.png";
+import idfoto4 from "../assets/IconsEquipe/idfoto4.png";
 
 export interface Equipe {
   id: number;
-  icon: string;
+  foto: string;
   nome: string;
   cargo: string;
   descricao: string;
@@ -11,7 +15,7 @@ export interface Equipe {
 export const equipe: Equipe[] = [
   {
     id: 1,
-    icon: "AL",
+    foto: idfoto1,
     nome: "André Luz",
     cargo: "CEO & Fundador",
     descricao:
@@ -20,7 +24,7 @@ export const equipe: Equipe[] = [
   },
   {
     id: 2,
-    icon: "CM",
+    foto: idfoto2,
     nome: "Carla Mendes",
     cargo: "CTO",
     descricao:
@@ -28,7 +32,7 @@ export const equipe: Equipe[] = [
   },
   {
     id: 3,
-    icon: "PN",
+    foto: idfoto3,
     nome: "Paulo Neto",
     cargo: "Head de Produto",
     descricao:
@@ -36,7 +40,7 @@ export const equipe: Equipe[] = [
   },
   {
     id: 4,
-    icon: "RC",
+    foto: idfoto4,
     nome: "Rita Costa",
     cargo: "Sucesso do Cliente",
     descricao:

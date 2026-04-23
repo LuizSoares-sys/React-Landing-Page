@@ -1,43 +1,64 @@
 .equipe {
-    background-color: rgb(255, 255, 255);
-    padding: 90px 0;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 60px 20px;
 }
+
 .container-equipe {
-    width: 1280px;
     margin: 0 auto;
     text-align: center;
+    width: 1280px;
 }
+
 .title-equipe h2 {
-    font-size: 42px;
     color: var(--black-color);
-    margin-bottom: 12px;
+    font-size: 42px;
+    margin-bottom: 48px;
 }
+
 .colunas-equipe1 {
     display: flex;
-    justify-content: center;
     gap: 24px;
+    justify-content: center;
 }
+
 .card-equipe {
+    align-items: center;
     background-color: #f3f6ff;
     border-radius: 12px;
-    padding: 28px;
-    text-align: left;
     box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    text-align: center;
 }
-.icon-equipe {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    font-size: 22px;
-    margin-bottom: 12px;
-}
+
 .card-equipe h3 {
-    font-size: 22px;
     color: var(--black-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 16px 0 4px 0;
     margin-bottom: 12px;
 }
+
 .card-equipe p {
-    font-size: 15px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.cargo {
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.icon-equipe {
+    size: 1000px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }

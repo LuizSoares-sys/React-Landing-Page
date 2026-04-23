@@ -1,21 +1,18 @@
 interface ItemEquipeProps {
+    icon: string;
     nome: string;
     cargo: string;
     descricao: string;
-    cor: string;
-    sigla: string;
 }
 
-function ItemEquipe({ sigla, nome, cargo, descricao, cor }: ItemEquipeProps) 
+export default function ItemEquipe({ icon, nome, cargo, descricao }: ItemEquipeProps) 
 {
     return (
         <article className="card-equipe">
-            <div className={`avatar-equipe ${cor}`}>{sigla}</div>
+            <div className={`icon-equipe`}>{icon}</div>
             <h3>{nome}</h3>
             <p>{cargo}</p>
             <p>{descricao}</p>
         </article>
     )
 }
-
-export default ItemEquipe;

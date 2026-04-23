@@ -1,0 +1,43 @@
+.equipe {
+    background-color: rgb(255, 255, 255);
+    padding: 90px 0;
+}
+.container-equipe {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title-equipe h2 {
+    font-size: 42px;
+    color: var(--black-color);
+    margin-bottom: 12px;
+}
+.colunas-equipe1 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card-equipe {
+    background-color: #f3f6ff;
+    border-radius: 12px;
+    padding: 28px;
+    text-align: left;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
+.icon-equipe {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.card-equipe h3 {
+    font-size: 22px;
+    color: var(--black-color);
+    margin-bottom: 12px;
+}
+.card-equipe p {
+    font-size: 15px;
+}

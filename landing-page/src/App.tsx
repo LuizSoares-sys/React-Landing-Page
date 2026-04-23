@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Sobre from "./components/Sobre/Sobre";
 import Solucao from "./components/Funcionalidades/solucao";
+import Equipe from "./components/Equipe/components/Equipe";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Sobre />
       <Solucao />
+      <Equipe />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import { equipe } from "../../../data/equipe";
 import ItemEquipe from "./itemEquipe";
-import "./equipe.css"
+import "./Equipe.css"
 
 function Equipe () {
     return (
